@@ -10,4 +10,5 @@ terraform {
     workspaces {
       name = "tfe-management"
     }
+  }
 }
