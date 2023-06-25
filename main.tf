@@ -17,3 +17,10 @@ resource "azuread_user" "this" {
     user_principal_name = "${each.value.upn}@loudtreelab.onmicrosoft.com"
     password = var.password
 }
+
+resource "tfe_team_member" "this" {
+    for_each = var.azure_user
+
+    team_id = each.value.team_id
+    username = each.value.upn
+}
