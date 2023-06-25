@@ -41,46 +41,46 @@ azure_user = {
     developer = {
         name = "Test Developer" 
         upn = "dev"
-        team_id = "Application Development Users"
+        team_id = "team-a227q7XK8pzfqkrN"
     }
     appManager = {
         name = "Test Dev Manager" 
         upn = "appdev.mgr"
-        team_id = "Application Development Managers"
+        team_id = "team-NtWAygaak1NbeYg3"
     }
     intern = {
         name = "Test Intern" 
         upn = "intern"
-        team_id = "Application Development Readers"
+        team_id = "team-MnooxwoSveQ6JG6U"
     }
     auditor = {
         name = "Test Auditor" 
         upn = "auditor"
-        team_id = "Audit Team"
+        team_id = "team-6byq9JB8ZzQHkfLw"
     }
     cloudAdmin = {
         name = "Test Cloud Admin" 
         upn = "cloudadmin"
-        team_id = "Cloud Administrators"
+        team_id = "team-cCpiSfFzPAZmRWpC"
     }
     devOpsUser = {
         name = "Test DevOps" 
         upn = "devops"
-        team_id = "DevOps Team"
+        team_id = "team-FFTrm3L4tNvHtXiQ"
     }
     networkReader = {
         name = "Test Network Reader" 
         upn = "network.reader"
-        team_id = "Network Readers"
+        team_id = "team-SNBW8uvPFHLKQrvA"
     }
     secOpsAdmin = {
         name = "Test Security Admin" 
         upn = "security.admin"
-        team_id = "Security Admins"
+        team_id = "team-bam7WcioKZFRckuH"
     }
     secOpsUser = {
         name = "Test Security Users" 
         upn = "security.user"
-        team_id = "Security Readers"
+        team_id = "team-Agv8mVuRCNV9y5mT"
     }
 }

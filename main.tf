@@ -24,3 +24,7 @@ resource "tfe_team_member" "this" {
     team_id = each.value.team_id
     username = each.value.upn
 }
+
+# output "tfe_id" {
+#     value = tfe_team.this[*]
+# }
