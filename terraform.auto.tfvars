@@ -36,3 +36,42 @@ tfe_team = {
     object_id = "77aea3a1-ef78-453a-adba-5f39d5ec50da"
   }
 }
+
+azure_user = {
+    developer = {
+        name = "Test Developer" 
+        upn = "dev"
+    }
+    appManager = {
+        name = "Test Dev Manager" 
+        upn = "appdev.mgr"
+    }
+    intern = {
+        name = "Test Intern" 
+        upn = "intern"
+    }
+    auditor = {
+        name = "Test Auditor" 
+        upn = "auditor"
+    }
+    cloudAdmin = {
+        name = "Test Cloud Admin" 
+        upn = "cloudadmin"
+    }
+    devOpsUser = {
+        name = "Test DevOps" 
+        upn = "devops"
+    }
+    networkReader = {
+        name = "Test Network Reader" 
+        upn = "network.reader"
+    }
+    secOpsAdmin = {
+        name = "Test Security Admin" 
+        upn = "security.admin"
+    }
+    secOpsUser = {
+        name = "Test Security Users" 
+        upn = "security.user"
+    }
+}
