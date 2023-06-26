@@ -18,12 +18,12 @@ resource "azuread_user" "this" {
     password = var.password
 }
 
-resource "tfe_team_member" "this" {
-    for_each = var.azure_user
+# resource "tfe_team_member" "this" {
+#     for_each = var.azure_user
 
-    team_id = each.value.team_id
-    username = each.value.upn
-}
+#     team_id = each.value.team_id
+#     username = each.value.upn
+# }
 
 # output "tfe_id" {
 #     value = tfe_team.this[*]
